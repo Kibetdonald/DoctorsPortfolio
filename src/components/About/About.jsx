@@ -5,6 +5,8 @@ import bulb from "../../Assets/Images/yes.png";
 import doctor1 from "../../Assets/Images/doctor1.jpg";
 import doctor2 from "../../Assets/Images/Doctor2.jpg";
 import { FiCheckSquare } from "react-icons/fi";
+import { HiOutlineLightBulb } from "react-icons/hi";
+
 
 export default function About() {
   return (
@@ -14,7 +16,7 @@ export default function About() {
       {/* First Row */}
       <div className="row">
         <div className="col-md-6">
-          <img src={doctor2} alt="About" className="AboutBanner" />
+          <img src={doctor2} alt="About" className="AboutBanner" style={{borderTopLeftRadius: "30%"}}/>
         </div>
         <div className="col-md-6">
         <h3 className="AboutSubTitle">About team</h3>
@@ -26,12 +28,11 @@ export default function About() {
             maiores ex.
           </p>
           <div className="AboutInfo">
-            <img src={bulb} className="HiLightBulb" alt="bulb" />
+           
+            <HiOutlineLightBulb className="HiLightBulb" />
             <span className="AboutDescription">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
-              sunt, itaque quaerat consectetur ullam quia distinctio incidunt
-              beatae hic culpa.
-            </span>
+              sunt, itaque quaerat consectetur</span>
           </div>
           <br />
           <p className="AboutDescription">
@@ -73,7 +74,7 @@ export default function About() {
           </p>
         </div>
         <div className="col-md-6">
-          <img src={doctor1} alt="About" className="AboutBanner" />
+          <img src={doctor1} alt="About" className="AboutBanner" style={{borderTopRightRadius: "30%"}}/>
         </div>
         
       </div>

@@ -5,7 +5,7 @@
 
 .AboutBanner {
     width: 82%;
-    border-top-left-radius: 30%;
+    
 }
 
 .AboutTitle {
@@ -38,11 +38,23 @@
     border: 1px solid #ddd;
     transition: 0.3s;
     border-radius: 5px;
-    padding: 15px;
+    padding: 12px;
     display: flex;
+    width: 70%;
+    margin: auto;
+    color: grey;
+   
+}
+.AboutInfo span{
+    font-size: 13px;
+    margin-top: 5px;
 }
 .HiLightBulb{
-   width: 15%;
+   color: #037fff;
+   font-size: 52px;
+   margin-right: 10px;
+   margin-top: -4px;
+   
 }
 .FiCheckSquare{
     color: #037fff;
