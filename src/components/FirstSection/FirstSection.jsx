@@ -32,16 +32,16 @@ export default function FirstSection() {
             </a>
             <br /> <br /> <br />
             <div className="row">
-              <div className="col">
+              <div className="col-2">
                 <img src={two} alt="logos" />
               </div>
               {/* <div className="col">
                 <img src={one} alt="logos" />
               </div> */}
-              <div className="col">
+              <div className="col-2">
                 <img src={four} alt="logos" />
               </div>
-              <div className="col">
+              <div className="col-2">
                 <img src={three} alt="logos" />
               </div>
               
