@@ -9,8 +9,6 @@
   padding-left: 5%;
   padding-right: 5%;
   border-bottom: 1px solid #cc44cc1a;
-  // background-color: hsl(240, 100%, 99%);
-
 }
 
 .Navbar>.nav-logo {
@@ -154,5 +152,14 @@
 
   .nav-toggle.open>.bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
+  }
+}
+
+
+
+@media screen and (min-width: 120px) and (max-width: 550px) {
+  .Navbar {
+    padding-left: 0%;
+    padding-right: 10%;
   }
 }

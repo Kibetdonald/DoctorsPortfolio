@@ -246,7 +246,7 @@
     width: 80%;
     height: 65vh;
     padding-top: 30%;
-    padding-left: 10%;
+    padding-left: 2%;
   }
 
   .smalltext {
@@ -255,10 +255,6 @@
     margin-left: 3%;
     width: 95%
   }
-
-
-  /* fixed elements responsive styling */
-
   .vl {
     height: 12em;
     left: 18%;
@@ -347,10 +343,9 @@
   }
 
   .FirstSection {
-    width: 80%;
+    width: 90%;
     height: 65vh;
     padding-top: 30%;
-    padding-left: 10%;
   }
 
   .smalltext {
@@ -388,7 +383,11 @@
     width: 0px;
     height: 0px;
   }
-
+  .bottomSection {
+    position: absolute;
+    bottom: 1px;
+    right: 5%;
+  }
   .col-xs-0,
   .col-sm-0,
   .col-md-0,
@@ -411,8 +410,6 @@
     padding-left: -10%;
 
   }
-
-
   .smalltext {
     font-size: 17px;
     color: grey;
@@ -461,13 +458,8 @@
     top: 52%;
   }
 
-
-
-
 }
 
-/* This is what i have started working on */
-/* max-width 576 and minimum of 480*/
 @media screen and (min-width: 320px) and (max-width: 400px) {
   .bannerImage {
     width: 0px;
@@ -492,7 +484,6 @@
     position: absolute;
     bottom: 1px;
     right: 5%;
-    
   }
   /* fixed elements responsive styling */
   .fixedText {
@@ -521,7 +512,7 @@
     width: 90%;
     height: 65vh;
     padding-top: 30%;
-    padding-left: -10%;
+    padding-left: -15%;
   }
 
   .smalltext {
@@ -586,10 +577,10 @@
   }
 
   .FirstSection {
-    width: 80%;
+    width: 90%;
     height: 65vh;
     padding-top: 30%;
-    padding-left: 10%;
+    padding-left: -15%;
   }
 
   .smalltext {
