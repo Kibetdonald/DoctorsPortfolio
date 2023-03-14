@@ -14,15 +14,20 @@ import {
   MdStarOutline,
   MdStarHalf,
 } from "react-icons/md";
+import Fade from "react-reveal/Fade";
 
 export default function Testimonials() {
   return (
     <div id="Testimonials" className="TestimonialsSection">
       {/* <Fade top> */}
+      <Fade bottom>
       <h3 className="TestimonialTitle">What Our Clients Say</h3>
-      <hr className="testimonialLine" /> <br />
+      </Fade>
+     <Fade bottom>
+     <hr className="testimonialLine" /> <br />
+     </Fade>
       {/* </Fade> */}
-      {/* <Fade bottom> */}
+      <Fade bottom>
       <Swiper
         breakpoints={{
           // when window width is >= 640px
@@ -191,7 +196,7 @@ export default function Testimonials() {
           </div>
         </SwiperSlide>
       </Swiper>
-      {/* </Fade> */}
+      </Fade>
     </div>
   );
 }

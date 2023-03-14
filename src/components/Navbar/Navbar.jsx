@@ -3,13 +3,14 @@ import "./Navbar.scss";
 import { NavHashLink } from "react-router-hash-link";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../../Assets/Images/logo.png";
+import Fade from "react-reveal/Fade";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isShown, setIsShown] = useState(false);
 
   return (
-    <>
+    <Fade top>
       <div className="Navbar">
         {/* <a href="/" className="nav-logo">
           MedStar
@@ -29,7 +30,7 @@ const Navbar = () => {
           <div className="bar"></div>
         </div>
       </div>
-    </>
+    </Fade>
   );
 };
 
