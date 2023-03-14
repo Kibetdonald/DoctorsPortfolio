@@ -35,9 +35,9 @@ export default function FirstSection() {
               <div className="col">
                 <img src={two} alt="logos" />
               </div>
-              <div className="col">
+              {/* <div className="col">
                 <img src={one} alt="logos" />
-              </div>
+              </div> */}
               <div className="col">
                 <img src={four} alt="logos" />
               </div>
