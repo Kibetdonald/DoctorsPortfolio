@@ -1,9 +1,9 @@
 import React from "react";
 import bannerImg from "../../Assets/Images/doctor.jpg";
-import one from "../../Assets/Images/1.svg";
-import two from "../../Assets/Images/2.svg";
-import three from "../../Assets/Images/3.svg";
-import four from "../../Assets/Images/4.svg";
+import one from "../../Assets/Images/cdc.jpg";
+import two from "../../Assets/Images/who.png";
+import three from "../../Assets/Images/health.png";
+import four from "../../Assets/Images/knh.png";
 import "./FirstSection.scss";
 import { RiDoubleQuotesL } from "react-icons/ri";
 
@@ -44,6 +44,7 @@ export default function FirstSection() {
               <div className="col">
                 <img src={three} alt="logos" />
               </div>
+              
             </div>
           </div>
 
