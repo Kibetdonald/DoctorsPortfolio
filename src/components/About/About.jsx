@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className="AboutSection">
       <h1 className="AboutTitle">About</h1>
-      <br /> 
+      <br />  <br /> 
       {/* First Row */}
       <div className="row">
         <div className="col-md-6">
@@ -45,7 +45,7 @@ export default function About() {
         </div>
       </div>
       {/* Second row */}
-      <br/>    <br/>    <br/>
+      <br/>    <br/>    <br/> <br />  <br />  
       <div className="row">
         
         <div className="col-md-6">
@@ -76,8 +76,9 @@ export default function About() {
         <div className="col-md-6">
           <img src={doctor1} alt="About" className="AboutBanner" style={{borderTopRightRadius: "30%"}}/>
         </div>
-        
+      
       </div>
+      <br />  <br /> 
     </div>
   );
 }

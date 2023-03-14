@@ -1,81 +1,81 @@
-
 .FirstSection {
-    width: 86%;
-    height: 100vh;
-    margin: auto;
-    padding-top: 10%;
-  }
-  
-  .bannerImage {
-    width: 98%;
-    margin-top: -10%;
-    margin-left: 2%;
-  
-  }
-  
-  .ultimate {
-    color: #008dc9;
-    font-size: 50px;
-  }
-  
-  .bigtext {
-    color: #000;
-    font-size: 48px;
-    width: 120%;
-    letter-spacing: 1px;
-    font-weight: 700;
-  }
-  
-  .smalltext {
-    font-size: 15px;
-    color: grey;
-    width: 70%;
-    background-image: linear-gradient(0deg, #008dc9, #008dc9);
-    background-size: 3px 100%;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    padding-left: 10px;
-  }
-  
-  
-  .bottomSection {
-    position: absolute;
-    bottom: 1px;
-    right: 28%;
-    width: 18rem;
-    height: 140px;
-    border-radius: 8px;
-    background-color: #008dc9;
-    color: #fff;
-    padding: 12px;
-  }
-  
-  .quoteIcon {
-    color: orange;
-    font-size: 80px;
-    margin-top: -35px;
-    margin-left: -70px;
-  }
-  
-  .quote {
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    margin-top: -45px;
-  }
-  
-  .author {
-    font-size: 13px;
-    color: #fff;
-    margin-top: -10px;
-  }
-  
-  .role {
-    font-size: 12px;
-    color: #ccc;
-    margin-top: -10px;
-  }
-  // Media queries
-  /* Width: 1440px */
+  width: 86%;
+  height: 100vh;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.bannerImage {
+  width: 98%;
+  margin-top: -10%;
+  margin-left: 2%;
+
+}
+
+.ultimate {
+  color: #008dc9;
+  font-size: 50px;
+}
+
+.bigtext {
+  color: #000;
+  font-size: 48px;
+  width: 120%;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.smalltext {
+  font-size: 15px;
+  color: grey;
+  width: 70%;
+  background-image: linear-gradient(0deg, #008dc9, #008dc9);
+  background-size: 3px 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 10px;
+}
+
+
+.bottomSection {
+  position: absolute;
+  bottom: 1px;
+  right: 28%;
+  width: 18rem;
+  height: 140px;
+  border-radius: 8px;
+  background-color: #008dc9;
+  color: #fff;
+  padding: 12px;
+}
+
+.quoteIcon {
+  color: orange;
+  font-size: 80px;
+  margin-top: -35px;
+  margin-left: -70px;
+}
+
+.quote {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  margin-top: -45px;
+}
+
+.author {
+  font-size: 13px;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.role {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: -10px;
+}
+
+// Media queries
+/* Width: 1440px */
 @media screen and (max-width: 1440px) {}
 
 /* width 1024*/
@@ -143,31 +143,36 @@
     left: 10%;
     top: 29%;
   }
+
   .FirstSection {
     width: 80%;
     height: 80%;
-  
-}
-/* fixed elements responsive styling */
-.fixedText{
-  position: fixed;
-  margin-left: -7%;
-  margin-top: 40%!important;
-}
-.vertical {
-  border-left: 2px solid grey;
-  height: 150px;
-  margin-top: 10px;
-  margin-left: 12px;
-}
-.fixedTextRight{
-  float: right;
-  color: #000;
-  position: fixed;
-  right: 15px;
-  margin-top: -26%;
-}
-/*end of fixed elements responsive styling */
+
+  }
+
+  /* fixed elements responsive styling */
+  .fixedText {
+    position: fixed;
+    margin-left: -7%;
+    margin-top: 40% !important;
+  }
+
+  .vertical {
+    border-left: 2px solid grey;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+
+  .fixedTextRight {
+    float: right;
+    color: #000;
+    position: fixed;
+    right: 15px;
+    margin-top: -26%;
+  }
+
+  /*end of fixed elements responsive styling */
 }
 
 /* max-width 576*/
@@ -206,7 +211,7 @@
     height: 40px;
     font-size: 15px;
   }
-  
+
 }
 
 /* max-width 576 and minimum of 480*/
@@ -251,37 +256,42 @@
     width: 95%
   }
 
-  
+
   /* fixed elements responsive styling */
- 
+
   .vl {
     height: 12em;
     left: 18%;
     top: 44%;
   }
-   .fixedText{
+
+  .fixedText {
     position: fixed;
     margin-left: -17%;
-    margin-top: 43%!important;
+    margin-top: 43% !important;
   }
+
   .FirstSection {
     width: 80%;
     height: 80%;
-}
+  }
+
   .vertical {
     border-left: 2px solid grey;
     height: 150px;
     margin-top: 10px;
     margin-left: 12px;
   }
-  .fixedTextRight{
+
+  .fixedTextRight {
     float: right;
     color: #000;
     position: fixed;
     right: 40px;
     margin-top: -48%;
   }
- /*end of fixed elements responsive styling */
+
+  /*end of fixed elements responsive styling */
 
   .bigtext {
     color: #000;
@@ -395,11 +405,13 @@
   }
 
   .FirstSection {
-    width: 80%;
+    width: 90%;
     height: 65vh;
     padding-top: 30%;
-    padding-left: 10%;
+    padding-left: -10%;
+
   }
+
 
   .smalltext {
     font-size: 17px;
@@ -414,26 +426,29 @@
     top: 42%;
   }
 
-   /* fixed elements responsive styling */
-   .fixedText{
+  /* fixed elements responsive styling */
+  .fixedText {
     position: fixed;
     margin-left: -14%;
-    margin-top: 72%!important;
+    margin-top: 72% !important;
   }
+
   .vertical {
     border-left: 2px solid grey;
     height: 150px;
     margin-top: 10px;
     margin-left: 12px;
   }
-  .fixedTextRight{
+
+  .fixedTextRight {
     float: right;
     color: #000;
     position: fixed;
     right: 15px;
     margin-top: -40%;
   }
- /*end of fixed elements responsive styling */
+
+  /*end of fixed elements responsive styling */
 
   .bigtext {
     color: #000;
@@ -473,31 +488,40 @@
     color: #008dc9;
     font-size: 35px;
   }
+  .bottomSection {
+    position: absolute;
+    bottom: 1px;
+    right: 5%;
+    
+  }
   /* fixed elements responsive styling */
-  .fixedText{
+  .fixedText {
     position: fixed;
     margin-left: -17%;
-    margin-top: 70%!important;
+    margin-top: 70% !important;
   }
+
   .vertical {
     border-left: 2px solid grey;
     height: 150px;
     margin-top: 10px;
     margin-left: 12px;
   }
-  .fixedTextRight{
+
+  .fixedTextRight {
     float: right;
     color: #000;
     position: fixed;
     right: 15px;
     margin-top: -100%;
   }
- /*end of fixed elements responsive styling */
+
+  /*end of fixed elements responsive styling */
   .FirstSection {
-    width: 80%;
+    width: 90%;
     height: 65vh;
     padding-top: 30%;
-    padding-left: 10%;
+    padding-left: -10%;
   }
 
   .smalltext {

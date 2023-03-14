@@ -41,7 +41,7 @@
     padding: 12px;
     display: flex;
     width: 70%;
-    margin: auto;
+    // margin: auto;
     color: grey;
    
 }
@@ -64,3 +64,8 @@
     font-size: 14px;
 }
 
+@media screen and (min-width: 100px) and (max-width: 479px) {
+    .AboutSection{
+      margin-top: 60%;
+    }
+}
